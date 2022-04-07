@@ -2,6 +2,7 @@ function getLocalTime(nS) {
     return new Date(parseInt(nS) * 1000).toLocaleString().replace(/:\d{1,2}$/,' ');
 }
 function getdddata(){
+    // 填入自己的库
     var bbsurl = "https://daodao-orpin.vercel.app/api?q=10"
 
     var httpRequest = new XMLHttpRequest();//第一步：建立所需的对象
